@@ -1,15 +1,16 @@
 import React from 'react';
 import './App.scss';
-import Card from './components/Card';
+import ProjectCard from './components/ProjectCard';
+import CryptoViewerImg from './assets/CryptoViewer.png';
 
 function App() {
   return (
     <div className="App">
-      <Card
-      title = "Dummy" 
-      imgSrc = "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcT9bSOdcTrMK_8j-GM1CxGBCMStyiUs2UIjjVWQhj7nTq_sLObt"
-      description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eu vestibulum dui, nec eleifend nunc."
-      projectUrl = "https://github.com/malabudi"
+      <ProjectCard 
+      img={CryptoViewerImg}
+      title="Crypto Price Viewer" 
+      desc="Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging across all continents except Antarctica"
+      alt="Crypto Price Viewer Website"
       />
     </div>
   );
