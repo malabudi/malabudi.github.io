@@ -2,6 +2,10 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+### `npm run deploy`
+
+Use this command to deploy to gh-pages from master
+
 ## Available Scripts
 
 In the project directory, you can run:
