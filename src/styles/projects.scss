@@ -1,0 +1,23 @@
+.projects-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 1080px;
+    margin: auto;
+    gap: 25px;
+}
+  
+.card {
+    width: 50%;
+}
+
+.card:hover {
+    transform: size(1.1);
+}
+  
+@media(max-width: 768px) {
+    .card {
+       width: 100%;
+    }
+}

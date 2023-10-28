@@ -1,17 +1,27 @@
-import React from 'react';
+import { Box, Tab, Tabs } from '@mui/material';
 import './App.scss';
-import ProjectCard from './components/ProjectCard';
-import CryptoViewerImg from './assets/CryptoViewer.png';
+import Projects from './components/Projects';
+import { useState } from 'react';
 
 function App() {
+  const [tabIndex, setTabIndex] = useState(0);
+
+  const handleChange = (event: React.SyntheticEvent, newValue: number) => {
+    setTabIndex(newValue);
+  };
+
   return (
     <div className="App">
-      <ProjectCard 
-      img={CryptoViewerImg}
-      title="Crypto Price Viewer" 
-      desc="Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging across all continents except Antarctica"
-      alt="Crypto Price Viewer Website"
-      />
+      <Box sx={{ width: '100%', bgcolor: 'background.paper' }}>
+        <Tabs value={tabIndex} onChange={handleChange} centered>
+          <Tab label="Item One" />
+          <Tab label="Item Two" />
+          <Tab label="Item Three" />
+        </Tabs>
+      </Box>
+      <div>
+        {tabIndex === 0 && <Projects />}
+      </div>
     </div>
   );
 }
