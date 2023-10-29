@@ -4,7 +4,8 @@ import '../styles/projects.scss';
 
 export default function Projects() {
   return (
-    <div className='projects-container'>
+    <div className='page-wrapper'>
+      <div className='projects-container'>
         <ProjectCard 
         className='card'
         img={CryptoViewerImg}
@@ -37,6 +38,7 @@ export default function Projects() {
         alt="Crypto Price Viewer Website"
         url="https://github.com/malabudi/AssetPriceViewer"
         />
+      </div>
     </div>
   );
 }

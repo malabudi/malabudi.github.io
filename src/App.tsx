@@ -12,13 +12,35 @@ function App() {
 
   return (
     <div className="App">
-      <Box sx={{ width: '100%', bgcolor: 'background.paper' }}>
-        <Tabs value={tabIndex} onChange={handleChange} centered>
-          <Tab label="Item One" />
-          <Tab label="Item Two" />
-          <Tab label="Item Three" />
+      <Box sx={{ width: '100%', bgcolor: '#565656' }}>
+        <Tabs
+        value={tabIndex} 
+        onChange={handleChange} 
+        centered
+        sx = {{
+          '& button': {
+            borderRadius: 1,
+            transition: 'all 0.25s ease',
+            color: '#FFFFFF'
+          },
+          '& button.Mui-selected': {color: '#fba92c'},
+          '& button:hover': {backgroundColor: '#9e9e9e'}
+        }}
+
+        TabIndicatorProps={{
+          style: {
+            backgroundColor: '#fba92c'
+          }
+        }}
+        >
+          <Tab label="Projects" />
+          <Tab label="About Me" />
+          <Tab label="Resume" />
+          <Tab label="Contact" />
         </Tabs>
       </Box>
+
+      {/* Tab Contents */}
       <div>
         {tabIndex === 0 && <Projects />}
       </div>
