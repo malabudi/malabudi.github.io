@@ -3,6 +3,7 @@ import './App.scss';
 import Projects from './components/Projects';
 import { useState } from 'react';
 import AboutMe from './components/AboutMe';
+import ContactMe from './components/ContactMe';
 
 function App() {
   const [tabIndex, setTabIndex] = useState(0);
@@ -44,6 +45,7 @@ function App() {
       <div>
         {tabIndex === 0 && <AboutMe />}
         {tabIndex === 1 && <Projects />}
+        {tabIndex === 2 && <ContactMe />}
       </div>
     </div>
   );

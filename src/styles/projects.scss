@@ -3,21 +3,13 @@
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    max-width: 1080px;
+    max-width: 100%;
     margin: auto;
     gap: 60px;
 }
-  
-.card {
-    width: 50%;
-}
 
-.card:hover {
-    transform: size(1.1);
-}
-  
-@media(max-width: 768px) {
-    .card {
-       width: 100%;
+@media(max-width: 550px) {
+    .projects-container {
+        gap: 20px;
     }
 }
