@@ -2,6 +2,7 @@ import { Box, Tab, Tabs } from '@mui/material';
 import './App.scss';
 import Projects from './components/Projects';
 import { useState } from 'react';
+import AboutMe from './components/AboutMe';
 
 function App() {
   const [tabIndex, setTabIndex] = useState(0);
@@ -33,16 +34,16 @@ function App() {
           }
         }}
         >
-          <Tab label="Projects" />
           <Tab label="About Me" />
-          <Tab label="Resume" />
-          <Tab label="Contact" />
+          <Tab label="Projects" />
+          <Tab label="Contact Me" />
         </Tabs>
       </Box>
 
       {/* Tab Contents */}
       <div>
-        {tabIndex === 0 && <Projects />}
+        {tabIndex === 0 && <AboutMe />}
+        {tabIndex === 1 && <Projects />}
       </div>
     </div>
   );

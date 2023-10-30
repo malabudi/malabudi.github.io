@@ -1,0 +1,45 @@
+.bio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 10rem;
+    gap: 200px;
+    text-align: left;
+}
+
+.welcome {
+    margin-bottom: 0;
+    font-size: 1.2rem;
+}
+
+h1 {
+    margin-top: 0;
+}
+
+h1, p {
+    color: #3a3a3a;
+}
+
+.abt-me-img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+.links {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.links svg {
+    height: 2em;
+    width: 2em;
+    color: #313131;
+    transition: all ease 0.20s;
+}
+
+.links svg:hover {
+    color: #fba92c;
+}

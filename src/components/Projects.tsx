@@ -5,7 +5,7 @@ import '../styles/projects.scss';
 export default function Projects() {
   return (
     <div className='page-wrapper'>
-      <div className='projects-container'>
+      <div className='projects-container fade-in'>
         <ProjectCard 
         className='card'
         img={CryptoViewerImg}
