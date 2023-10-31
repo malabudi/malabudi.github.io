@@ -13,12 +13,15 @@ White: #FFFFFF
 .page-wrapper {
   background-color: white;
   margin: 0 10vw;
-  height: 90vh;
+  height: 100%;
   padding-top: 50px;
   border-radius: 5px;
   border: #9e9e9e solid 1px;
   box-shadow: 0 0 100px #565656;
-  overflow-y: auto
+}
+
+body {
+  background: #9e9e9e;
 }
 
 .App {

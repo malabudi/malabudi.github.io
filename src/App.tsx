@@ -14,7 +14,7 @@ function App() {
 
   return (
     <div className="App">
-      <Box sx={{ width: '100%', bgcolor: '#565656' }}>
+      <Box sx={{ width: '100%', bgcolor: '#565656', position: 'fixed', zIndex: '100' }}>
         <Tabs
         value={tabIndex} 
         onChange={handleChange} 

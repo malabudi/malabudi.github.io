@@ -11,7 +11,7 @@ export default function ProjectCard(props: any) {
 
   const handleWidth = () => {
     if (isSmallMobile) {
-      return 200;
+      return 250;
     }
     else if (isMobile) {
       return 350;
