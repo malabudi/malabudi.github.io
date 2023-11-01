@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.ccc63104.css",
-    "main.js": "/static/js/main.07d1e4a4.js",
+    "main.css": "/static/css/main.86d1402b.css",
+    "main.js": "/static/js/main.05921cb1.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/CryptoViewer.png": "/static/media/CryptoViewer.53de57a1f939698b2478.png",
     "static/media/roboto-latin-900italic.woff": "/static/media/roboto-latin-900italic.c20d916c1a1b094c1cec.woff",
@@ -29,12 +29,12 @@
     "static/media/roboto-latin-400.woff2": "/static/media/roboto-latin-400.176f8f5bd5f02b3abfcf.woff2",
     "static/media/roboto-latin-900.woff2": "/static/media/roboto-latin-900.870c8c1486f76054301a.woff2",
     "index.html": "/index.html",
-    "main.ccc63104.css.map": "/static/css/main.ccc63104.css.map",
-    "main.07d1e4a4.js.map": "/static/js/main.07d1e4a4.js.map",
+    "main.86d1402b.css.map": "/static/css/main.86d1402b.css.map",
+    "main.05921cb1.js.map": "/static/js/main.05921cb1.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ccc63104.css",
-    "static/js/main.07d1e4a4.js"
+    "static/css/main.86d1402b.css",
+    "static/js/main.05921cb1.js"
   ]
 }
