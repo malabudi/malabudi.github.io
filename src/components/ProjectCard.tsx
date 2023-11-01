@@ -7,8 +7,22 @@ import { Box, CardActionArea, useMediaQuery } from '@mui/material';
 export default function ProjectCard(props: any) {
   // rescale card with media query
   const isMobile = useMediaQuery('(max-width: 768px)');
-  const width = isMobile ? 350 : 500;
-  const imgHeight = isMobile ? 197 : 281;
+  const isSmallMobile = useMediaQuery('(max-width: 475px)');
+
+  const handleWidth = () => {
+    if (isSmallMobile) {
+      return 250;
+    }
+    else if (isMobile) {
+      return 350;
+    }
+    else {
+      return 500;
+    }
+  }
+
+  let width = handleWidth();
+  let imgHeight = isMobile ? 197 : 281;
 
   return (
     <Box boxShadow={10}>
