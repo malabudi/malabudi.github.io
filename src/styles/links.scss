@@ -1,0 +1,19 @@
+@import '../App.scss';
+
+.links {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 1rem 0;
+}
+
+.links svg {
+    height: 2em;
+    width: 2em;
+    color: $tertiary;
+    transition: all ease 0.20s;
+}
+
+.links svg:hover {
+    color: $accent;
+}
