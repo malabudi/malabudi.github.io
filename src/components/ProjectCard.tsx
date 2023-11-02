@@ -45,6 +45,9 @@ export default function ProjectCard(props: any) {
             <Typography variant="body2" color="text.secondary">
               {props.desc}
             </Typography>
+            <Typography variant="body2" color="text.secondary">
+              <p><strong>Built With: </strong>{props.builtWith}</p>
+            </Typography>
           </CardContent>
         </CardActionArea>
       </Card>
