@@ -19,7 +19,7 @@ export default function Projects() {
         "
         alt="Crypto Price Viewer Website"
         url="https://github.com/malabudi/AssetPriceViewer"
-        builtWith='AngularJS, NestJS, NX, TypeScript'
+        builtWith='AngularJS, NestJS, NX, TypeScript, SCSS'
         />
 
         <ProjectCard
@@ -34,7 +34,7 @@ export default function Projects() {
         "
         alt="Hackathon Project from HackDearborn"
         url="https://github.com/malabudi/AssetPriceViewer"
-        builtWith='ReactJS, Flask, TypeScript, Python'
+        builtWith='ReactJS, Flask, TypeScript, Python, SCSS'
         />
       </div>
     </div>
