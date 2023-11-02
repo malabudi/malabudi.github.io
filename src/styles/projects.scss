@@ -1,6 +1,6 @@
 .projects-container {
     display: flex;
-    align-items: center;
+    align-items: stretch;
     justify-content: center;
     flex-wrap: wrap;
     max-width: 100%;
@@ -9,12 +9,8 @@
     margin: 2rem 0;
 }
 
-.Muibox-root {
-    transition: transform 0.15s ease-in-out;
-}
-
-.Muibox-root:hover {
-    transform: scale3d(1.05, 1.05, 1);
+.projects-container div div {
+    height: 100%;
 }
 
 @media(max-width: 550px) {
