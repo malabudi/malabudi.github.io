@@ -4,7 +4,6 @@ import Projects from './components/Projects';
 import { useState } from 'react';
 import AboutMe from './components/AboutMe';
 import ContactMe from './components/ContactMe';
-import WaveAnimations from './components/WaveAnimations';
 
 function App() {
   const [tabIndex, setTabIndex] = useState(0);
@@ -48,8 +47,6 @@ function App() {
         {tabIndex === 1 && <Projects />}
         {tabIndex === 2 && <ContactMe />}
       </div>
-
-      <WaveAnimations />
     </div>
   );
 }
